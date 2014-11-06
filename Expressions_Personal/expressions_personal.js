@@ -4,7 +4,5 @@
     Personal Expressions
 */
 
-alert("Javescript Works");
-
-// Global Variables
+//alert("Javescript Works");
 
