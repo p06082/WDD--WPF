@@ -14,3 +14,7 @@ console.log(timeToBed);
 
 var timeWaking = prompt("What time will you be waking up tomorrow?");
 console.log(timeWaking)
+
+var hoursSlept = timeWaking - timeToBed;
+
+alert("You will sleep about "+hoursSlept+" hours.");
