@@ -9,7 +9,7 @@
 //Calculation for hours worked
 
 //Ask user the amount of money they were paid in total
-    var totalAmount = prompt("Hello. Let's begin calculating how many hours you have worked this        pay period. How much money were you paid in total?");
+    var totalAmount = prompt("Hello. Let's begin calculating how many hours you have worked this pay period. How much money were you paid in total?");
     console.log(totalAmount);
 
 //Ask user how much they are paid hourly
