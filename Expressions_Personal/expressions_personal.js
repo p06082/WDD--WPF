@@ -11,3 +11,6 @@
 //Ask user the time they will go to bed and the time they plan to wake up the next morning
 var timeToBed = prompt("What time will you go to bed tonight?");
 console.log(timeToBed);
+
+var timeWaking = prompt("What time will you be waking up tomorrow?");
+console.log(timeWaking)
