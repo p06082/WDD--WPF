@@ -6,15 +6,15 @@
 
 //alert("Javescript Works");
 
-//Calculation for projected hours of sleep
+//Calculation for hours worked
 
-//Ask user the time they will go to bed and the time they plan to wake up the next morning
-var timeToBed = prompt("What time will you go to bed tonight? 24h time");
-console.log(timeToBed);
+//Ask user the amount of money they were paid in total and the amount they made per hour
+var totalAmount = prompt("How much money were you paid in total?");
+console.log(totalAmount);
 
-var timeWaking = prompt("What time will you be waking up tomorrow? 24h time");
-console.log(timeWaking)
+var hourlyAmount = prompt("How much were you paid hourly?");
+console.log(hourlyAmount)
 
-var hoursSlept = timeWaking - timeToBed;
+var hoursWorked = totalAmount / hourlyAmount;
 
-alert("You will sleep about "+hoursSlept+" hours.");
+alert("You worked about "+hoursWorked+" hours.");
