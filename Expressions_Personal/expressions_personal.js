@@ -8,13 +8,16 @@
 
 //Calculation for hours worked
 
-//Ask user the amount of money they were paid in total and the amount they made per hour
-var totalAmount = prompt("How much money were you paid in total?");
-console.log(totalAmount);
+//Ask user the amount of money they were paid in total
+    var totalAmount = prompt("Hello. Let's begin calculating how many hours you have worked this        pay period. How much money were you paid in total?");
+    console.log(totalAmount);
 
-var hourlyAmount = prompt("How much were you paid hourly?");
-console.log(hourlyAmount)
+//Ask user how much they are paid hourly
+    var hourlyAmount = prompt("How much were you paid hourly?");
+    console.log(hourlyAmount)
 
-var hoursWorked = totalAmount / hourlyAmount;
+//Calculation
+    var hoursWorked = totalAmount / hourlyAmount;
 
-alert("You worked about "+hoursWorked+" hours.");
+//Solution
+    alert("You worked about "+hoursWorked+" hours.");
